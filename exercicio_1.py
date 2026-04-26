@@ -19,3 +19,7 @@ Dica: Use inputs para receber os dados!
 Lembre de converter ele para o tipo necessário!
 Print na tela com "print"
 """
+nota_1 = float(input("Digite a primeira nota:"))
+nota_2 = float(input("Digite a segunda nota:"))
+nota_3 = float(input("Digite a terceira nota:"))
+print("Sua média é ", round((nota_1+nota_2+nota_3)/3,2))
